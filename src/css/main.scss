@@ -6,89 +6,89 @@
 
 .container,
 .container-fluid {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .container-fluid {
-  padding-right: 0 !important;
-  padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 .container-fluid .row {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
 
 hr {
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
 }
 
 header .alert {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 #shareWhatsApp {
-  margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 #shareWhatsApp img {
-  width: 20px;
-  margin-left: 0.5rem;
+    width: 20px;
+    margin-left: 0.5rem;
 }
 
 #shareWhatsApp .btn {
-  width: 80%;
+    width: 80%;
 }
 
 #option_buttons {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .tt-picker-edit-input {
-  /* margin same as bootstrap padding default for .dropdown-menu>li>a*/
-  margin: 3px 20px;
+    /* margin same as bootstrap padding default for .dropdown-menu>li>a*/
+    margin: 3px 20px;
 }
 
 .tt-picker-edit-button {
-  margin-right: 1rem;
+    margin-right: 1rem;
 }
 
 #timetable .table {
-  margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .quick-selection .btn {
-  min-width: 4.5em;
-  margin: 0.25em;
+    min-width: 4.5em;
+    margin: 0.25em;
 }
 
 #insertSlotBtn:empty {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 #courseList .row {
-  margin-right: 0;
-  margin-left: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 #courseListTable .table {
-  margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 #courseListTable .table-responsive {
-  margin-bottom: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 #CourseAllocationReport-btn {
-  width: 60%;
+    width: 60%;
 }
 
 footer {
-  padding-top: 0.25em;
-  padding-bottom: 0.25em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
 }
 
 /**
@@ -97,94 +97,94 @@ footer {
 */
 
 #shareWhatsApp img {
-  vertical-align: bottom;
+    vertical-align: bottom;
 }
 
-#option_buttons .dropdown-menu>li:not(:last-child) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+#option_buttons .dropdown-menu > li:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .tt-picker-edit-ok {
-  position: absolute;
-  right: 25px;
-  padding-top: 5px !important;
+    position: absolute;
+    right: 25px;
+    padding-top: 5px !important;
 }
 
 .screenshot_msg {
-  color: black;
-  background-color: white;
+    color: black;
+    background-color: white;
 }
 
 .screenshot_msg tr,
 .screenshot_msg td {
-  border-color: white !important;
+    border-color: white !important;
 }
 
 .LabHours {
-  font-weight: bold;
-  background-color: #99CCFF;
-  cursor: default;
+    font-weight: bold;
+    background-color: #99ccff;
+    cursor: default;
 }
 
 .TheoryHours {
-  font-weight: bold;
-  background-color: #CCCCFF;
-  cursor: default;
+    font-weight: bold;
+    background-color: #ccccff;
+    cursor: default;
 }
 
 .ColumnOneDays {
-  font-weight: bold;
-  background-color: #C0C0C0;
-  cursor: default;
+    font-weight: bold;
+    background-color: #c0c0c0;
+    cursor: default;
 }
 
 .TimetableContent {
-  text-transform: uppercase;
-  color: grey;
-  background-color: #FFFFCC;
-  cursor: pointer;
+    text-transform: uppercase;
+    color: grey;
+    background-color: #ffffcc;
+    cursor: pointer;
 }
 
 .TimetableContent:hover {
-  color: black;
-  background-color: #CCFF33;
-  cursor: pointer;
+    color: black;
+    background-color: #ccff33;
+    cursor: pointer;
 }
 
 .TimetableContent.highlight {
-  color: black;
-  background-color: #CCFF33;
-  cursor: pointer;
+    color: black;
+    background-color: #ccff33;
+    cursor: pointer;
 }
 
 .TimetableContent.highlight:hover {
-  color: grey;
-  background-color: #CCFF33;
-  cursor: pointer;
+    color: grey;
+    background-color: #ccff33;
+    cursor: pointer;
 }
 
 .TimetableContent[disabled] {
-  text-transform: capitalize;
-  color: grey;
-  background-color: #FFFFCC;
-  cursor: default;
+    text-transform: capitalize;
+    color: grey;
+    background-color: #ffffcc;
+    cursor: default;
 }
 
 #timetable .table-bordered td,
 #timetable .table-bordered th {
-  border: 1px solid #616161 !important;
-  vertical-align: middle;
+    border: 1px solid #616161 !important;
+    vertical-align: middle;
 }
 
 /* .tt-course-code used when inserting course code in timetable */
 
 #timetable td div {
-  font-size: 0.9em;
+    font-size: 0.9em;
 }
 
 #timetable td.clash {
-  background: red !important;
-  color: #fff !important;
+    background: red !important;
+    color: #fff !important;
 }
 
 .A1,
@@ -229,9 +229,9 @@ footer {
 .TEE2,
 .TFF2,
 .TGG2 {
-  color: grey;
-  background-color: #FFFFCC;
-  cursor: pointer;
+    color: grey;
+    background-color: #ffffcc;
+    cursor: pointer;
 }
 
 .A1:hover,
@@ -276,9 +276,9 @@ footer {
 .TEE2:hover,
 .TFF2:hover,
 .TGG2:hover {
-  color: black;
-  background-color: #CCFF33;
-  cursor: pointer;
+    color: black;
+    background-color: #ccff33;
+    cursor: pointer;
 }
 
 .A1.highlight,
@@ -323,9 +323,9 @@ footer {
 .TEE2.highlight,
 .TFF2.highlight,
 .TGG2.highlight {
-  color: black;
-  background-color: #CCFF33;
-  cursor: pointer;
+    color: black;
+    background-color: #ccff33;
+    cursor: pointer;
 }
 
 .A1.highlight:hover,
@@ -370,9 +370,9 @@ footer {
 .TEE2.highlight:hover,
 .TFF2.highlight:hover,
 .TGG2.highlight:hover {
-  color: grey;
-  background-color: #CCFF33;
-  cursor: pointer;
+    color: grey;
+    background-color: #ccff33;
+    cursor: pointer;
 }
 
 .A1-tile,
@@ -417,7 +417,7 @@ footer {
 .TEE2-tile,
 .TFF2-tile,
 .TGG2-tile {
-  background-color: #FFC107;
+    background-color: #ffc107;
 }
 
 .A1-tile.highlight,
@@ -462,103 +462,103 @@ footer {
 .TEE2-tile.highlight,
 .TFF2-tile.highlight,
 .TGG2-tile.highlight {
-  background-color: #64DD17;
+    background-color: #64dd17;
 }
 
 /* Quick selection tiles/buttons */
 
 .quick-selection {
-  text-align: center;
+    text-align: center;
 }
 
 .quick-selection .btn:hover {
-  background-color: #64DD17;
+    background-color: #64dd17;
 }
 
 #slot-sel-area input,
 .list-group-item {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 #slot-sel-area input {
-  color: black !important;
+    color: black !important;
 }
 
 .myBlockquote {
-  color: #9E9E9E;
-  font-size: 1.5rem;
+    color: #9e9e9e;
+    font-size: 1.5rem;
 }
 
 #slot-sel-area #insertCourseSelectionOptions div {
-  display: flex;
-  margin-bottom: 0.13rem;
-  /* break word on overflow */
-  word-wrap: break-word;
-  white-space: normal;
+    display: flex;
+    margin-bottom: 0.13rem;
+    /* break word on overflow */
+    word-wrap: break-word;
+    white-space: normal;
 }
 
 #slot-sel-area #insertCourseSelectionOptions div button {
-  min-width: 20rem;
+    min-width: 20rem;
 }
 
 #slot-sel-area #insertCourseSelectionOptions p {
-  color: #616161;
+    color: #616161;
 }
 
 #insertSlotBtn .btn {
-  white-space: normal;
+    white-space: normal;
 }
 
 #courseListTable {
-  /* background-color important for screenshot */
-  background-color: white;
-  border: 1px solid #e5e5e5;
+    /* background-color important for screenshot */
+    background-color: white;
+    border: 1px solid #e5e5e5;
 }
 
 #courseListTable table th,
 #courseListTable table tr {
-  text-align: center;
+    text-align: center;
 }
 
 #courseListTable table tr th:not(:last-of-type) {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 #courseListTable table tr th.sorted,
 #courseListTable table tr th:hover:not(:last-of-type) {
-  background-color: #f1f7ee;
+    background-color: #f1f7ee;
 }
 
 #courseListTable table tr th.ascending::after {
-  content: ' ↓';
-  font-size: larger;
+    content: ' ↓';
+    font-size: larger;
 }
 
 #courseListTable table tr th.descending::after {
-  content: ' ↑';
-  font-size: larger;
-  font-weight: bold;
+    content: ' ↑';
+    font-size: larger;
+    font-weight: bold;
 }
 
 #courseListTable table tr:not(:last-of-type) {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 #courseListTable .close {
-  float: none;
+    float: none;
 }
 
 footer {
-  background-color: #9C27B0;
-  color: #fff;
+    background-color: #9c27b0;
+    color: #fff;
 }
 
 footer a {
-  color: #fff;
+    color: #fff;
 }
 
 footer a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 /**
@@ -566,18 +566,18 @@ footer a:hover {
  */
 
 .noselect {
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  -khtml-user-select: none;
-  /* Konqueror HTML */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none;
-  /* Non-prefixed version, currently supported by Chrome and Opera */
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome and Opera */
 }
 
 /**
@@ -586,19 +586,19 @@ footer a:hover {
  */
 
 .horizontal-scroll-no-collapse {
-  overflow: auto;
-  white-space: nowrap;
+    overflow: auto;
+    white-space: nowrap;
 }
 
-@media screen and (max-width:768px) {
-  .horizontal-scroll-no-collapse>* {
-    float: none;
-    display: inline-block;
-  }
-  .container .horizontal-scroll-no-collapse {
-    margin-left: -15px;
-    margin-right: -15px;
-  }
+@media screen and (max-width: 768px) {
+    .horizontal-scroll-no-collapse > * {
+        float: none;
+        display: inline-block;
+    }
+    .container .horizontal-scroll-no-collapse {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
 }
 
 /**
@@ -606,10 +606,10 @@ footer a:hover {
  */
 
 ::-webkit-scrollbar {
-  height: 10px;
-  background: transparent;
+    height: 10px;
+    background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #9C27B0;
+    background: #9c27b0;
 }

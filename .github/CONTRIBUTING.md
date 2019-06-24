@@ -7,5 +7,3 @@
 - Make sure you create an issue before sending PR. Issue can be anything a bug or a feature request.
 
 - Wait for someone to assign the issue to you before you start working on it.
-
-- The PR must be on gh-pages and NOT master.
